@@ -1,0 +1,12 @@
+pipeline {
+  agent {
+    label dev
+  }
+  stages {
+    stage('Test') {
+      steps {
+        sh 'node --version'
+      }
+    }
+  }
+}
