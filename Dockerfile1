@@ -1,2 +1,0 @@
-FROM hello-world
-RUN RUN apk add -U git curl
